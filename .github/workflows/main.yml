@@ -6,5 +6,6 @@ jobs:
    steps:
       - name: Checkout
         uses: actions/checkout@v7
-        run: echo "hi" 
+      - name: Run a script
+        run: echo "Building project..." 
    
